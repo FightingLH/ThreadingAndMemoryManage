@@ -8,6 +8,12 @@
 
 #import "ViewController.h"
 
+struct test
+{
+    NSMutableArray __unsafe_unretained *array;
+    NSString       __unsafe_unretained *str;
+};
+
 @interface ViewController ()
 
 @end
